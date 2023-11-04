@@ -1,0 +1,57 @@
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  width: 50% !important;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper_contain {
+  height: 59%;
+  width: 100%;
+}
+
+.swiper-slide-prev {
+  transform: scale(0.9) !important;
+}
+.swiper-slide-next {
+  transform: scale(0.9) !important;
+}
+.swiper-slide {
+  transition: all 0.25s ease-in-out;
+}
+
+@media (max-width: 770px) {
+  .swiper-slide {
+    width: 85% !important;
+  }
+  .swiper_contain {
+    height: 200px !important;
+    margin-top: -150px;
+  }
+}
