@@ -2,7 +2,7 @@ import none from "../../Assets/Socials/none.png";
 
 import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion, useAnimation, useInView } from "framer-motion";
-import { blogs, officials, socials } from "../../Constants/SocialsData";
+import { blogs, officials, socials } from "../../Constants/socialsData";
 
 export const Socials = () => {
   const [sideImage, setSideImage] = useState(none);

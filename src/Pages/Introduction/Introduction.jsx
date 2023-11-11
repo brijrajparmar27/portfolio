@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useEffect, useRef } from "react";
 import Globe from "react-globe.gl";
 import * as THREE from "three";
-import cloudsLayer from "../../Assets/clouds.png";
+// import cloudsLayer from "../../Assets/clouds.png";
 
 export const Introduction = () => {
   const titleVariants = {
