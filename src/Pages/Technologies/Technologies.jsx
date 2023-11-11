@@ -1,8 +1,8 @@
 import { motion, useScroll, useTransform } from "framer-motion";
-import Js from "../../Assets/Icons/JS.svg";
-import ReactJs from "../../Assets/Icons/React.svg";
-import Sass from "../../Assets/Icons/Sass.svg";
-import Ts from "../../Assets/Icons/Ts.svg";
+// import Js from "../../Assets/Icons/JS.svg";
+// import ReactJs from "../../Assets/Icons/React.svg";
+// import Sass from "../../Assets/Icons/Sass.svg";
+// import Ts from "../../Assets/Icons/Ts.svg";
 
 export const Technologies = () => {
   let { scrollYProgress } = useScroll();
@@ -24,7 +24,7 @@ export const Technologies = () => {
             dragTransition={{ bounceStiffness: 300, bounceDamping: 20 }}
             dragElastic={0.5}
             whileTap={{ cursor: "grabbing" }}
-            src={Js}
+            src={"/Icons/JS.svg"}
             whileHover={{
               scale: 1.1,
               // y: 10,
@@ -35,7 +35,7 @@ export const Technologies = () => {
             className="md:h-[100px] h-[70px]"
           />
           <motion.img
-            src={ReactJs}
+            src={"/Icons/React.svg"}
             alt=""
             className="md:h-[100px] h-[70px]"
             drag
@@ -54,7 +54,7 @@ export const Technologies = () => {
             whileTap={{ cursor: "grabbing" }}
           />
           <motion.img
-            src={Sass}
+            src={"/Icons/Sass.svg"}
             alt=""
             className="md:h-[100px] h-[70px]"
             drag
@@ -73,7 +73,7 @@ export const Technologies = () => {
             whileTap={{ cursor: "grabbing" }}
           />
           <motion.img
-            src={Ts}
+            src={"/Icons/Ts.svg"}
             alt=""
             className="md:h-[100px] h-[70px]"
             drag

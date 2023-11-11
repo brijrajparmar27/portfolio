@@ -3,16 +3,16 @@ import React, { useEffect, useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "./Projects.css";
 
-import chatroom from "../../Assets/Project/chatroom.png";
-import chatroom1 from "../../Assets/Project/chatroom1.png";
-import thedojo from "../../Assets/Project/thedojo.png";
-import thedojo1 from "../../Assets/Project/thedojo1.png";
-import linkvault from "../../Assets/Project/linkvault.png";
-import linkvault1 from "../../Assets/Project/linkvault1.png";
-import chatsocket from "../../Assets/Project/chatsocket.png";
-import chatsocket1 from "../../Assets/Project/chatsocket1.png";
-import cadre from "../../Assets/Project/cadre.png";
-import cadre1 from "../../Assets/Project/cadre1.png";
+// import chatroom from "../../Assets/Project/chatroom.png";
+// import chatroom1 from "../../Assets/Project/chatroom1.png";
+// import thedojo from "../../Assets/Project/thedojo.png";
+// import thedojo1 from "../../Assets/Project/thedojo1.png";
+// import linkvault from "../../Assets/Project/linkvault.png";
+// import linkvault1 from "../../Assets/Project/linkvault1.png";
+// import chatsocket from "../../Assets/Project/chatsocket.png";
+// import chatsocket1 from "../../Assets/Project/chatsocket1.png";
+// import cadre from "../../Assets/Project/cadre.png";
+// import cadre1 from "../../Assets/Project/cadre1.png";
 
 // Import Swiper styles
 import "swiper/css";
@@ -136,23 +136,23 @@ export const Projects = () => {
           })} */}
           <SwiperSlide
             // key={project.id}
-            style={{ backgroundImage: `url(${thedojo})` }}
+            style={{ backgroundImage: `url('/Project/thedojo.png')` }}
           ></SwiperSlide>
           <SwiperSlide
             // key={project.id}
-            style={{ backgroundImage: `url(${chatroom})` }}
+            style={{ backgroundImage: `url('/Project/chatroom.png')` }}
           ></SwiperSlide>
           <SwiperSlide
             // key={project.id}
-            style={{ backgroundImage: `url(${linkvault})` }}
+            style={{ backgroundImage: `url('/Project/linkvault.png')` }}
           ></SwiperSlide>
           <SwiperSlide
             // key={project.id}
-            style={{ backgroundImage: `url(${cadre})` }}
+            style={{ backgroundImage: `url('/Project/cadre.png')` }}
           ></SwiperSlide>
           <SwiperSlide
             // key={project.id}
-            style={{ backgroundImage: `url(${chatsocket})` }}
+            style={{ backgroundImage: `url('/Project/chatsocket.png')` }}
           ></SwiperSlide>
         </Swiper>
       </div>
