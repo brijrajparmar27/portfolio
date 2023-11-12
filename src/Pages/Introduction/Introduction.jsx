@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { useEffect, useRef } from "react";
 import Globe from "react-globe.gl";
 import * as THREE from "three";
-// import cloudsLayer from "../../Assets/clouds.jpg";
 
 export const Introduction = () => {
   const titleVariants = {
@@ -50,13 +49,6 @@ export const Introduction = () => {
     const height = window.innerHeight;
     const globe = globeEl.current;
     const handleMouseMove = (event) => {
-      // setMousePos({ x: event.clientX, y: event.clientY });
-      console.log({
-        x: event.clientX,
-        y: event.clientY,
-        totalWidth: width,
-        totalHeight: height,
-      });
       globe.pointOfView({
         lng: mapValueToRange(event.clientX, 0, width, 90, -90),
         lat: mapValueToRange(event.clientY, 0, height, -90, 90),
@@ -80,9 +72,9 @@ export const Introduction = () => {
     globe.controls().enableZoom = false;
 
     // Add clouds sphere
-    const CLOUDS_IMG_URL = "/clouds.png"; // from https://github.com/turban/webgl-earth
+    const CLOUDS_IMG_URL = "/clouds.png";
     const CLOUDS_ALT = 0.004;
-    const CLOUDS_ROTATION_SPEED = -0.006; // deg/frame
+    const CLOUDS_ROTATION_SPEED = -0.006;
 
     new THREE.TextureLoader().load(CLOUDS_IMG_URL, (cloudsTexture) => {
       const clouds = new THREE.Mesh(
