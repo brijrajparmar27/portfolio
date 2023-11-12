@@ -123,6 +123,6 @@ export const blogs = [
     title: "Dev",
     icon: "/Icons/Social/Dev.svg",
     link: "https://dev.to/brijrajsinh_parmar",
-    image: "/Socials/devt.jpg",
+    image: "/Socials/dev.jpg",
   },
 ];
