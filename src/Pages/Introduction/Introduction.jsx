@@ -113,6 +113,7 @@ export const Introduction = () => {
           onZoom={() => {}}
         />
       </div>
+      <div className="h-full w-full md:hidden absolute top-0 left-0 z-[5]"></div>
       <motion.div
         className="p-5 z-10"
         variants={containerVariants}

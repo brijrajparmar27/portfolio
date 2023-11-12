@@ -1,5 +1,10 @@
 import { useEffect, useRef, useState } from "react";
-import { AnimatePresence, motion, useAnimation, useInView } from "framer-motion";
+import {
+  AnimatePresence,
+  motion,
+  useAnimation,
+  useInView,
+} from "framer-motion";
 import { blogs, officials, socials } from "../../Constants/socialsData";
 
 export const Socials = () => {
@@ -44,8 +49,11 @@ export const Socials = () => {
   };
 
   return (
-    <div className="page bg-bg_gray flex justify-center items-center relative" ref={ref}>
-      <div className="h-screen w-screen absolute top-0 left-0 z-0 bg-no-repeat bg-contain bg-right flex justify-end">
+    <div
+      className="page bg-bg_gray flex justify-center items-center relative"
+      ref={ref}
+    >
+      <div className="h-screen w-screen absolute top-0 left-0 z-0 bg-no-repeat bg-contain bg-right justify-end hidden md:flex">
         <AnimatePresence initial={false} mode="popLayout">
           <motion.div
             className="w-fit relative"
@@ -85,23 +93,25 @@ export const Socials = () => {
           <div className="flex flex-row justify-start items-center gap-14">
             {socials.map((each) => {
               return (
-                <motion.img
-                  src={each.icon}
-                  animate={animateLinks}
-                  whileHover={{
-                    scale: 1.1,
-                    cursor: "pointer",
-                  }}
-                  alt=""
-                  className="md:h-[75px] h-[40px]"
-                  key={each.id}
-                  onMouseEnter={() => {
-                    setSideImage(each.image);
-                  }}
-                  onMouseLeave={() => {
-                    setSideImage("/Socials/none.png");
-                  }}
-                />
+                <a href={each.link}>
+                  <motion.img
+                    src={each.icon}
+                    animate={animateLinks}
+                    whileHover={{
+                      scale: 1.1,
+                      cursor: "pointer",
+                    }}
+                    alt=""
+                    className="md:h-[75px] h-[40px]"
+                    key={each.id}
+                    onMouseEnter={() => {
+                      setSideImage(each.image);
+                    }}
+                    onMouseLeave={() => {
+                      setSideImage("/Socials/none.png");
+                    }}
+                  />
+                </a>
               );
             })}
           </div>
@@ -116,23 +126,25 @@ export const Socials = () => {
           <div className="flex flex-row justify-start items-center gap-14">
             {officials.map((each) => {
               return (
-                <motion.img
-                  src={each.icon}
-                  animate={animateLinks}
-                  whileHover={{
-                    scale: 1.1,
-                    cursor: "pointer",
-                  }}
-                  alt=""
-                  className="md:h-[75px] h-[40px]"
-                  key={each.id}
-                  onMouseEnter={() => {
-                    setSideImage(each.image);
-                  }}
-                  onMouseLeave={() => {
-                    setSideImage("/Socials/none.png");
-                  }}
-                />
+                <a href={each.link}>
+                  <motion.img
+                    src={each.icon}
+                    animate={animateLinks}
+                    whileHover={{
+                      scale: 1.1,
+                      cursor: "pointer",
+                    }}
+                    alt=""
+                    className="md:h-[75px] h-[40px]"
+                    key={each.id}
+                    onMouseEnter={() => {
+                      setSideImage(each.image);
+                    }}
+                    onMouseLeave={() => {
+                      setSideImage("/Socials/none.png");
+                    }}
+                  />
+                </a>
               );
             })}
           </div>
@@ -147,23 +159,25 @@ export const Socials = () => {
           <div className="flex flex-row justify-start items-center gap-14">
             {blogs.map((each) => {
               return (
-                <motion.img
-                  src={each.icon}
-                  animate={animateLinks}
-                  whileHover={{
-                    scale: 1.1,
-                    cursor: "pointer",
-                  }}
-                  alt=""
-                  className="md:h-[75px] h-[40px]"
-                  key={each.id}
-                  onMouseEnter={() => {
-                    setSideImage(each.image);
-                  }}
-                  onMouseLeave={() => {
-                    setSideImage("/Socials/none.png");
-                  }}
-                />
+                <a href={each.link}>
+                  <motion.img
+                    src={each.icon}
+                    animate={animateLinks}
+                    whileHover={{
+                      scale: 1.1,
+                      cursor: "pointer",
+                    }}
+                    alt=""
+                    className="md:h-[75px] h-[40px]"
+                    key={each.id}
+                    onMouseEnter={() => {
+                      setSideImage(each.image);
+                    }}
+                    onMouseLeave={() => {
+                      setSideImage("/Socials/none.png");
+                    }}
+                  />
+                </a>
               );
             })}
           </div>
