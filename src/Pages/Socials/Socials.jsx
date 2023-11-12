@@ -1,11 +1,9 @@
-import none from "../../Assets/Socials/none.png";
-
 import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion, useAnimation, useInView } from "framer-motion";
 import { blogs, officials, socials } from "../../Constants/socialsData";
 
 export const Socials = () => {
-  const [sideImage, setSideImage] = useState(none);
+  const [sideImage, setSideImage] = useState("/Socials/none.png");
   const ref = useRef();
   const inView = useInView(ref, { once: true, amount: 0.5 });
   const animateTitle = useAnimation();
@@ -101,7 +99,7 @@ export const Socials = () => {
                     setSideImage(each.image);
                   }}
                   onMouseLeave={() => {
-                    setSideImage(none);
+                    setSideImage("/Socials/none.png");
                   }}
                 />
               );
@@ -132,7 +130,7 @@ export const Socials = () => {
                     setSideImage(each.image);
                   }}
                   onMouseLeave={() => {
-                    setSideImage(none);
+                    setSideImage("/Socials/none.png");
                   }}
                 />
               );
@@ -163,7 +161,7 @@ export const Socials = () => {
                     setSideImage(each.image);
                   }}
                   onMouseLeave={() => {
-                    setSideImage(none);
+                    setSideImage("/Socials/none.png");
                   }}
                 />
               );
