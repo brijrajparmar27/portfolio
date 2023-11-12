@@ -8,7 +8,7 @@ import {
 import { blogs, officials, socials } from "../../Constants/socialsData";
 
 export const Socials = () => {
-  const [sideImage, setSideImage] = useState("/Socials/none.png");
+  const [sideImage, setSideImage] = useState("/Socials/none.jpg");
   const ref = useRef();
   const inView = useInView(ref, { once: true, amount: 0.5 });
   const animateTitle = useAnimation();
@@ -108,7 +108,7 @@ export const Socials = () => {
                       setSideImage(each.image);
                     }}
                     onMouseLeave={() => {
-                      setSideImage("/Socials/none.png");
+                      setSideImage("/Socials/none.jpg");
                     }}
                   />
                 </a>
@@ -141,7 +141,7 @@ export const Socials = () => {
                       setSideImage(each.image);
                     }}
                     onMouseLeave={() => {
-                      setSideImage("/Socials/none.png");
+                      setSideImage("/Socials/none.jpg");
                     }}
                   />
                 </a>
@@ -174,7 +174,7 @@ export const Socials = () => {
                       setSideImage(each.image);
                     }}
                     onMouseLeave={() => {
-                      setSideImage("/Socials/none.png");
+                      setSideImage("/Socials/none.jpg");
                     }}
                   />
                 </a>

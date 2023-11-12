@@ -6,13 +6,13 @@
 // import medium from "../Assets/Icons/Social/medium.svg";
 // import dev from "../Assets/Icons/Social/dev.svg";
 
-// import insta from "../Assets/Socials/insta.png";
-// import devt from "../Assets/Socials/dev.png";
-// import gith from "../Assets/Socials/gith.png";
-// import linkd from "../Assets/Socials/linkd.png";
-// import medi from "../Assets/Socials/medi.png";
-// import twit from "../Assets/Socials/twit.png";
-// import yt from "../Assets/Socials/yt.png";
+// import insta from "../Assets/Socials/insta.jpg";
+// import devt from "../Assets/Socials/dev.jpg";
+// import gith from "../Assets/Socials/gith.jpg";
+// import linkd from "../Assets/Socials/linkd.jpg";
+// import medi from "../Assets/Socials/medi.jpg";
+// import twit from "../Assets/Socials/twit.jpg";
+// import yt from "../Assets/Socials/yt.jpg";
 // export const socials = [
 //   {
 //     id: 1,
@@ -75,21 +75,21 @@ export const socials = [
     title: "Instagram",
     icon: "/Icons/Social/Instagram.svg",
     link: "https://www.instagram.com/brjiraj/",
-    image: "/Socials/insta.png",
+    image: "/Socials/insta.jpg",
   },
   {
     id: 2,
     title: "Twitter",
     icon: "/Icons/Social/Twitter.svg",
     link: "https://twitter.com/brijrajparmar32",
-    image: "/Socials/twit.png",
+    image: "/Socials/twit.jpg",
   },
   {
     id: 3,
     title: "Youtube",
     icon: "/Icons/Social/Youtube.svg",
     link: "https://www.youtube.com/@ignicode",
-    image: "/Socials/yt.png",
+    image: "/Socials/yt.jpg",
   },
 ];
 
@@ -99,14 +99,14 @@ export const officials = [
     title: "LinkedIn",
     icon: "/Icons/Social/Linkedin.svg",
     link: "https://www.linkedin.com/in/brijrajsinh-parmar/",
-    image: "/Socials/linkd.png",
+    image: "/Socials/linkd.jpg",
   },
   {
     id: 5,
     title: "Github",
     icon: "/Icons/Social/Github.svg",
     link: "https://github.com/brijrajparmar27",
-    image: "/Socials/gith.png",
+    image: "/Socials/gith.jpg",
   },
 ];
 
@@ -116,13 +116,13 @@ export const blogs = [
     title: "Medium",
     icon: "/Icons/Social/Medium.svg",
     link: "https://medium.com/@brijrajsinh_parmar",
-    image: "/Socials/medi.png",
+    image: "/Socials/medi.jpg",
   },
   {
     id: 7,
     title: "Dev",
     icon: "/Icons/Social/Dev.svg",
     link: "https://dev.to/brijrajsinh_parmar",
-    image: "/Socials/devt.png",
+    image: "/Socials/devt.jpg",
   },
 ];

@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useEffect, useRef } from "react";
 import Globe from "react-globe.gl";
 import * as THREE from "three";
-// import cloudsLayer from "../../Assets/clouds.png";
+// import cloudsLayer from "../../Assets/clouds.jpg";
 
 export const Introduction = () => {
   const titleVariants = {
@@ -109,7 +109,7 @@ export const Introduction = () => {
           ref={globeEl}
           animateIn={false}
           globeImageUrl="//unpkg.com/three-globe/example/img/earth-blue-marble.jpg"
-          bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
+          bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.jpg"
           onZoom={() => {}}
         />
       </div>
