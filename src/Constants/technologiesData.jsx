@@ -100,3 +100,26 @@ export const technologies = [
     },
   },
 ];
+
+export const stack = [
+  {
+    id: 1,
+    name: "Javascript",
+    url: "/Icons/JS.svg"
+  },
+  {
+    id: 1,
+    name: "React",
+    url: "/Icons/React.svg"
+  },
+  {
+    id: 1,
+    name: "Scss",
+    url: "/Icons/Sass.svg"
+  },
+  {
+    id: 1,
+    name: "Typescript",
+    url: "/Icons/Ts.svg"
+  },
+]

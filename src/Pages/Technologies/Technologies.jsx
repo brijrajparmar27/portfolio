@@ -1,100 +1,44 @@
 import { motion, useScroll, useTransform } from "framer-motion";
-// import Js from "../../Assets/Icons/JS.svg";
-// import ReactJs from "../../Assets/Icons/React.svg";
-// import Sass from "../../Assets/Icons/Sass.svg";
-// import Ts from "../../Assets/Icons/Ts.svg";
+import { stack } from "../../Constants/technologiesData";
 
 export const Technologies = () => {
   let { scrollYProgress } = useScroll();
   let y = useTransform(scrollYProgress, [0, 1], ["-650%", "3000%"]);
-  console.log(y);
+
   return (
-    // <ParallaxProvider>
     <div className="page bg-bg_blue flex justify-center items-center">
       <div className="h-full w-full relative">
         <div className="absolute top-0 left-0 h-full w-full flex justify-evenly items-center flex-col md:flex-row z-50">
-          <motion.img
-            drag
-            dragConstraints={{
-              top: 0,
-              right: 0,
-              bottom: 0,
-              left: 0,
-            }}
-            dragTransition={{ bounceStiffness: 300, bounceDamping: 20 }}
-            dragElastic={0.5}
-            whileTap={{ cursor: "grabbing" }}
-            src={"/Icons/JS.svg"}
-            whileHover={{
-              scale: 1.1,
-              // y: 10,
-            }}
-            onHoverStart={(e) => {}}
-            onHoverEnd={(e) => {}}
-            alt=""
-            className="md:h-[100px] h-[70px]"
-          />
-          <motion.img
-            src={"/Icons/React.svg"}
-            alt=""
-            className="md:h-[100px] h-[70px]"
-            drag
-            whileHover={{
-              scale: 1.1,
-              // y: 10,
-            }}
-            dragConstraints={{
-              top: 0,
-              right: 0,
-              bottom: 0,
-              left: 0,
-            }}
-            dragTransition={{ bounceStiffness: 300, bounceDamping: 20 }}
-            dragElastic={0.5}
-            whileTap={{ cursor: "grabbing" }}
-          />
-          <motion.img
-            src={"/Icons/Sass.svg"}
-            alt=""
-            className="md:h-[100px] h-[70px]"
-            drag
-            whileHover={{
-              scale: 1.1,
-              // y: 10,
-            }}
-            dragConstraints={{
-              top: 0,
-              right: 0,
-              bottom: 0,
-              left: 0,
-            }}
-            dragTransition={{ bounceStiffness: 300, bounceDamping: 20 }}
-            dragElastic={0.5}
-            whileTap={{ cursor: "grabbing" }}
-          />
-          <motion.img
-            src={"/Icons/Ts.svg"}
-            alt=""
-            className="md:h-[100px] h-[70px]"
-            drag
-            whileHover={{
-              scale: 1.1,
-              // y: 10,
-            }}
-            dragConstraints={{
-              top: 0,
-              right: 0,
-              bottom: 0,
-              left: 0,
-            }}
-            dragTransition={{ bounceStiffness: 300, bounceDamping: 20 }}
-            dragElastic={0.5}
-            whileTap={{ cursor: "grabbing" }}
-          />
+          {stack &&
+            stack.map((each) => {
+              return (
+                <motion.img
+                  key={each.id}
+                  drag
+                  dragConstraints={{
+                    top: 0,
+                    right: 0,
+                    bottom: 0,
+                    left: 0,
+                  }}
+                  dragTransition={{ bounceStiffness: 300, bounceDamping: 20 }}
+                  dragElastic={0.5}
+                  whileTap={{ cursor: "grabbing" }}
+                  src={each.url}
+                  whileHover={{
+                    scale: 1.1,
+                  }}
+                  onHoverStart={(e) => {}}
+                  onHoverEnd={(e) => {}}
+                  alt=""
+                  className="md:h-[100px] h-[70px]"
+                />
+              );
+            })}
         </div>
         <motion.p
           style={{ y }}
-          className="absolute z-10 text-fg_muted_blue md:text-Mtitle md:top-[168px] md:left-[149px] text-Mtitle top-[58px] left-[43px]"
+          className="absolute z-10 text-fg_muted_blue md:text-Mtitle md:top-[20%] md:left-[149px] text-Mtitle top-[58px] left-[43px]"
         >
           Mongo
         </motion.p>
