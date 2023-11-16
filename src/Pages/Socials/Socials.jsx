@@ -8,7 +8,7 @@ import {
 import { blogs, officials, socials } from "../../Constants/socialsData";
 
 export const Socials = () => {
-  const [sideImage, setSideImage] = useState("/Socials/none.jpg");
+  const [sideImage, setSideImage] = useState("/Socials/none.png");
   const ref = useRef();
   const inView = useInView(ref, { once: true, amount: 0.5 });
   const animateTitle = useAnimation();
@@ -93,7 +93,7 @@ export const Socials = () => {
           <div className="flex flex-row justify-start items-center gap-14">
             {socials.map((each) => {
               return (
-                <a href={each.link}>
+                <a href={each.link} key={each.id}>
                   <motion.img
                     src={each.icon}
                     animate={animateLinks}
@@ -108,7 +108,7 @@ export const Socials = () => {
                       setSideImage(each.image);
                     }}
                     onMouseLeave={() => {
-                      setSideImage("/Socials/none.jpg");
+                      setSideImage("/Socials/none.png");
                     }}
                   />
                 </a>
@@ -126,7 +126,7 @@ export const Socials = () => {
           <div className="flex flex-row justify-start items-center gap-14">
             {officials.map((each) => {
               return (
-                <a href={each.link}>
+                <a href={each.link} key={each.id}>
                   <motion.img
                     src={each.icon}
                     animate={animateLinks}
@@ -141,7 +141,7 @@ export const Socials = () => {
                       setSideImage(each.image);
                     }}
                     onMouseLeave={() => {
-                      setSideImage("/Socials/none.jpg");
+                      setSideImage("/Socials/none.png");
                     }}
                   />
                 </a>
@@ -159,7 +159,7 @@ export const Socials = () => {
           <div className="flex flex-row justify-start items-center gap-14">
             {blogs.map((each) => {
               return (
-                <a href={each.link}>
+                <a href={each.link} key={each.id}>
                   <motion.img
                     src={each.icon}
                     animate={animateLinks}
@@ -174,7 +174,7 @@ export const Socials = () => {
                       setSideImage(each.image);
                     }}
                     onMouseLeave={() => {
-                      setSideImage("/Socials/none.jpg");
+                      setSideImage("/Socials/none.png");
                     }}
                   />
                 </a>

@@ -1,20 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import "./Projects.css";
 
-// import chatroom from "../../Assets/Project/chatroom.jpg";
-// import chatroom1 from "../../Assets/Project/chatroom1.jpg";
-// import thedojo from "../../Assets/Project/thedojo.jpg";
-// import thedojo1 from "../../Assets/Project/thedojo1.jpg";
-// import linkvault from "../../Assets/Project/linkvault.jpg";
-// import linkvault1 from "../../Assets/Project/linkvault1.jpg";
-// import chatsocket from "../../Assets/Project/chatsocket.jpg";
-// import chatsocket1 from "../../Assets/Project/chatsocket1.jpg";
-// import cadre from "../../Assets/Project/cadre.jpg";
-// import cadre1 from "../../Assets/Project/cadre1.jpg";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
@@ -28,7 +15,6 @@ export const Projects = () => {
   }, []);
 
   useEffect(() => {
-    console.log(currentSlide);
   }, [currentSlide]);
 
   const handleSwipe = (currentIndex) => {
@@ -112,7 +98,6 @@ export const Projects = () => {
       <div className="swiper_contain z-10">
         <Swiper
           onSlideChange={(e) => {
-            console.log(e.activeIndex);
             handleSwipe(e.activeIndex);
           }}
           // slidesPerView={3}

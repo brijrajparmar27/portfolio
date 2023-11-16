@@ -125,7 +125,6 @@ export const Experience = () => {
                       : "text-title cursor-pointer text-fg_gray"
                   }
                   onClick={() => {
-                    console.log("prev");
                     id > 1 && setId((prev) => prev - 1);
                     id > 1 && paginate(-1);
                   }}
@@ -142,7 +141,6 @@ export const Experience = () => {
                       : "text-title cursor-pointer text-fg_gray"
                   }
                   onClick={() => {
-                    console.log("next");
                     id < experience.length && setId((prev) => prev + 1);
                     id < experience.length && paginate(1);
                   }}

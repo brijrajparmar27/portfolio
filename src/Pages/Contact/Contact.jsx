@@ -49,12 +49,12 @@ export const Contact = () => {
   return (
     <div className="page bg-black sm:bg-bg_blue flex relative">
       <div className="flex-1 absolute top-0 left-0 z-0 sm:relative">
-        <div class="grid grid-cols-3 brightness-[15%] sm:brightness-100 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 mt-[-10px]">
-          {/* <div class="grid gap-4 h-min">
+        <div className="grid grid-cols-3 brightness-[15%] sm:brightness-100 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 mt-[-10px]">
+          {/* <div className="grid gap-4 h-min">
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src={P1}
                 alt=""
               />
@@ -62,7 +62,7 @@ export const Contact = () => {
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src={P2}
                 alt=""
               />
@@ -70,7 +70,7 @@ export const Contact = () => {
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src={P3}
                 alt=""
               />
@@ -78,7 +78,7 @@ export const Contact = () => {
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src={P4}
                 alt=""
               />
@@ -86,17 +86,17 @@ export const Contact = () => {
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src={P5}
                 alt=""
               />
             </div>
           </div>
-          <div class="grid gap-4 h-min">
+          <div className="grid gap-4 h-min">
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src={P6}
                 alt=""
               />
@@ -104,7 +104,7 @@ export const Contact = () => {
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src={P7}
                 alt=""
               />
@@ -112,7 +112,7 @@ export const Contact = () => {
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src={P8}
                 alt=""
               />
@@ -120,7 +120,7 @@ export const Contact = () => {
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src={P9}
                 alt=""
               />
@@ -128,17 +128,17 @@ export const Contact = () => {
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src={P10}
                 alt=""
               />
             </div>
           </div> */}
-          <div class="grid gap-4 h-min">
+          <div className="grid gap-4 h-min">
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src="/Portraits/1.jpeg"
                 alt=""
               />
@@ -146,7 +146,7 @@ export const Contact = () => {
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src="/Portraits/2.jpeg"
                 alt=""
               />
@@ -154,7 +154,7 @@ export const Contact = () => {
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src="/Portraits/3.jpeg"
                 alt=""
               />
@@ -162,7 +162,7 @@ export const Contact = () => {
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src="/Portraits/4.jpeg"
                 alt=""
               />
@@ -170,17 +170,17 @@ export const Contact = () => {
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src="/Portraits/5.jpeg"
                 alt=""
               />
             </div>
           </div>
-          <div class="grid gap-4 h-min">
+          <div className="grid gap-4 h-min">
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src="/Portraits/6.jpeg"
                 alt=""
               />
@@ -188,7 +188,7 @@ export const Contact = () => {
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src="/Portraits/7.jpeg"
                 alt=""
               />
@@ -196,7 +196,7 @@ export const Contact = () => {
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src="/Portraits/8.jpeg"
                 alt=""
               />
@@ -204,7 +204,7 @@ export const Contact = () => {
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src="/Portraits/9.jpeg"
                 alt=""
               />
@@ -212,18 +212,18 @@ export const Contact = () => {
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src="/Portraits/10.jpeg"
                 alt=""
               />
             </div>
           </div>
 
-          <div class="grid gap-4 h-min">
+          <div className="grid gap-4 h-min">
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src="/Portraits/11.jpeg"
                 alt=""
               />
@@ -231,7 +231,7 @@ export const Contact = () => {
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src="/Portraits/12.jpeg"
                 alt=""
               />
@@ -239,7 +239,7 @@ export const Contact = () => {
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src="/Portraits/13.jpeg"
                 alt=""
               />
@@ -247,7 +247,7 @@ export const Contact = () => {
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src="/Portraits/14.jpeg"
                 alt=""
               />
@@ -255,17 +255,17 @@ export const Contact = () => {
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src="/Portraits/15.jpeg"
                 alt=""
               />
             </div>
           </div>
-          <div class="grid gap-4 h-min">
+          <div className="grid gap-4 h-min">
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src="/Portraits/16.jpeg"
                 alt=""
               />
@@ -273,7 +273,7 @@ export const Contact = () => {
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src="/Portraits/17.jpeg"
                 alt=""
               />
@@ -281,7 +281,7 @@ export const Contact = () => {
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src="/Portraits/18.jpeg"
                 alt=""
               />
@@ -289,7 +289,7 @@ export const Contact = () => {
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src="/Portraits/19.jpeg"
                 alt=""
               />
@@ -297,7 +297,7 @@ export const Contact = () => {
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src="/Portraits/20.jpeg"
                 alt=""
               />
@@ -313,17 +313,17 @@ export const Contact = () => {
           <form className="flex flex-col gap-6">
             <input
               type="text"
-              class="w-full p-2 text-xl border-b-2 outline-none bg-[transparent] text-white"
+              className="w-full p-2 text-xl border-b-2 outline-none bg-[transparent] text-white"
               placeholder="Full Name"
             />
             <input
               type="text"
-              class="w-full p-2 text-xl border-b-2 outline-none bg-[transparent] text-white"
+              className="w-full p-2 text-xl border-b-2 outline-none bg-[transparent] text-white"
               placeholder="Email"
             />
             <input
               type="text"
-              class="w-full p-2 text-xl border-b-2 outline-none bg-[transparent] text-white"
+              className="w-full p-2 text-xl border-b-2 outline-none bg-[transparent] text-white"
               placeholder="Message"
             />
             <input
