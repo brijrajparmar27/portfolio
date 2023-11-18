@@ -54,41 +54,46 @@ export const Contact = () => {
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
+                alt="brijrajsinh parmar"
                 className="h-auto max-w-full rounded-lg"
                 src={P1}
-                alt=""
+                
               />
             </div>
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
+                alt="brijrajsinh parmar"
                 className="h-auto max-w-full rounded-lg"
                 src={P2}
-                alt=""
+                
               />
             </div>
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
+                alt="brijrajsinh parmar"
                 className="h-auto max-w-full rounded-lg"
                 src={P3}
-                alt=""
+                
               />
             </div>
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
+                alt="brijrajsinh parmar"
                 className="h-auto max-w-full rounded-lg"
                 src={P4}
-                alt=""
+                
               />
             </div>
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
+                alt="brijrajsinh parmar"
                 className="h-auto max-w-full rounded-lg"
                 src={P5}
-                alt=""
+                
               />
             </div>
           </div>
@@ -96,41 +101,46 @@ export const Contact = () => {
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
+                alt="brijrajsinh parmar"
                 className="h-auto max-w-full rounded-lg"
                 src={P6}
-                alt=""
+                
               />
             </div>
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
+                alt="brijrajsinh parmar"
                 className="h-auto max-w-full rounded-lg"
                 src={P7}
-                alt=""
+                
               />
             </div>
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
+                alt="brijrajsinh parmar"
                 className="h-auto max-w-full rounded-lg"
                 src={P8}
-                alt=""
+                
               />
             </div>
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
+                alt="brijrajsinh parmar"
                 className="h-auto max-w-full rounded-lg"
                 src={P9}
-                alt=""
+                
               />
             </div>
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
+                alt="brijrajsinh parmar"
                 className="h-auto max-w-full rounded-lg"
                 src={P10}
-                alt=""
+                
               />
             </div>
           </div> */}
@@ -138,41 +148,41 @@ export const Contact = () => {
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
+                alt="brijrajsinh parmar"
                 className="h-auto max-w-full rounded-lg"
                 src="/Portraits/1.jpeg"
-                alt=""
               />
             </div>
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
+                alt="brijrajsinh parmar"
                 className="h-auto max-w-full rounded-lg"
                 src="/Portraits/2.jpeg"
-                alt=""
               />
             </div>
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
+                alt="brijrajsinh parmar"
                 className="h-auto max-w-full rounded-lg"
                 src="/Portraits/3.jpeg"
-                alt=""
               />
             </div>
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
+                alt="brijrajsinh parmar"
                 className="h-auto max-w-full rounded-lg"
                 src="/Portraits/4.jpeg"
-                alt=""
               />
             </div>
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
+                alt="brijrajsinh parmar"
                 className="h-auto max-w-full rounded-lg"
                 src="/Portraits/5.jpeg"
-                alt=""
               />
             </div>
           </div>
@@ -180,41 +190,41 @@ export const Contact = () => {
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
+                alt="brijrajsinh parmar"
                 className="h-auto max-w-full rounded-lg"
                 src="/Portraits/6.jpeg"
-                alt=""
               />
             </div>
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
+                alt="brijrajsinh parmar"
                 className="h-auto max-w-full rounded-lg"
                 src="/Portraits/7.jpeg"
-                alt=""
               />
             </div>
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
+                alt="brijrajsinh parmar"
                 className="h-auto max-w-full rounded-lg"
                 src="/Portraits/8.jpeg"
-                alt=""
               />
             </div>
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
+                alt="brijrajsinh parmar"
                 className="h-auto max-w-full rounded-lg"
                 src="/Portraits/9.jpeg"
-                alt=""
               />
             </div>
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
+                alt="brijrajsinh parmar"
                 className="h-auto max-w-full rounded-lg"
                 src="/Portraits/10.jpeg"
-                alt=""
               />
             </div>
           </div>
@@ -223,41 +233,41 @@ export const Contact = () => {
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
+                alt="brijrajsinh parmar"
                 className="h-auto max-w-full rounded-lg"
                 src="/Portraits/11.jpeg"
-                alt=""
               />
             </div>
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
+                alt="brijrajsinh parmar"
                 className="h-auto max-w-full rounded-lg"
                 src="/Portraits/12.jpeg"
-                alt=""
               />
             </div>
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
+                alt="brijrajsinh parmar"
                 className="h-auto max-w-full rounded-lg"
                 src="/Portraits/13.jpeg"
-                alt=""
               />
             </div>
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
+                alt="brijrajsinh parmar"
                 className="h-auto max-w-full rounded-lg"
                 src="/Portraits/14.jpeg"
-                alt=""
               />
             </div>
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
+                alt="brijrajsinh parmar"
                 className="h-auto max-w-full rounded-lg"
                 src="/Portraits/15.jpeg"
-                alt=""
               />
             </div>
           </div>
@@ -265,41 +275,41 @@ export const Contact = () => {
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
+                alt="brijrajsinh parmar"
                 className="h-auto max-w-full rounded-lg"
                 src="/Portraits/16.jpeg"
-                alt=""
               />
             </div>
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
+                alt="brijrajsinh parmar"
                 className="h-auto max-w-full rounded-lg"
                 src="/Portraits/17.jpeg"
-                alt=""
               />
             </div>
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
+                alt="brijrajsinh parmar"
                 className="h-auto max-w-full rounded-lg"
                 src="/Portraits/18.jpeg"
-                alt=""
               />
             </div>
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
+                alt="brijrajsinh parmar"
                 className="h-auto max-w-full rounded-lg"
                 src="/Portraits/19.jpeg"
-                alt=""
               />
             </div>
             <div>
               <motion.img
                 whileHover={{ scale: 0.95 }}
+                alt="brijrajsinh parmar"
                 className="h-auto max-w-full rounded-lg"
                 src="/Portraits/20.jpeg"
-                alt=""
               />
             </div>
           </div>
