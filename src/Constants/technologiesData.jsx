@@ -5,7 +5,7 @@ export const technologies = [
     position: {
       mobile: {
         left: 5,
-        top: 2,
+        top: 1,
       },
       pc: {
         left: 10,
@@ -19,7 +19,7 @@ export const technologies = [
     position: {
       mobile: {
         left: 30,
-        top: 30,
+        top: 20,
       },
       pc: {
         left: 20,
@@ -32,8 +32,8 @@ export const technologies = [
     label: 'Javascript',
     position: {
       mobile: {
-        left: 30,
-        top: 30,
+        left: 65,
+        top: 65,
       },
       pc: {
         left: 40,
@@ -46,8 +46,8 @@ export const technologies = [
     label: 'Tailwind',
     position: {
       mobile: {
-        left: 30,
-        top: 30,
+        left: 80,
+        top: 15,
       },
       pc: {
         left: 60,
@@ -61,7 +61,7 @@ export const technologies = [
     position: {
       mobile: {
         left: 30,
-        top: 30,
+        top: 90,
       },
       pc: {
         left: 75,
@@ -74,8 +74,8 @@ export const technologies = [
     label: 'Express',
     position: {
       mobile: {
-        left: 30,
-        top: 30,
+        left: 65,
+        top: 55,
       },
       pc: {
         left: 20,
@@ -88,8 +88,8 @@ export const technologies = [
     label: 'CSS',
     position: {
       mobile: {
-        left: 30,
-        top: 30,
+        left: 15,
+        top: 50,
       },
       pc: {
         left: 50,
@@ -103,7 +103,7 @@ export const technologies = [
     position: {
       mobile: {
         left: 30,
-        top: 30,
+        top: 70,
       },
       pc: {
         left: 80,
