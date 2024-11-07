@@ -1,101 +1,211 @@
 export const technologies = [
   {
-    label: "Mongo",
+    id: 21,
+    label: 'Mongo',
     position: {
-      mobile: {},
+      mobile: {
+        left: 5,
+        top: 2,
+      },
       pc: {
-        left: 149,
-        top: 168,
+        left: 10,
+        top: 15,
       },
     },
   },
   {
-    label: "Sass",
+    id: 22,
+    label: 'Sass',
     position: {
-      mobile: {},
+      mobile: {
+        left: 30,
+        top: 30,
+      },
       pc: {
-        left: 1295,
-        top: 711,
+        left: 20,
+        top: 30,
       },
     },
   },
   {
-    label: "Javascript",
+    id: 23,
+    label: 'Javascript',
     position: {
-      mobile: {},
+      mobile: {
+        left: 30,
+        top: 30,
+      },
       pc: {
-        left: 470,
-        top: 692,
+        left: 40,
+        top: 15,
       },
     },
   },
   {
-    label: "Tailwind",
+    id: 24,
+    label: 'Tailwind',
     position: {
-      mobile: {},
+      mobile: {
+        left: 30,
+        top: 30,
+      },
       pc: {
-        left: 319,
-        top: 546,
+        left: 60,
+        top: 70,
       },
     },
   },
   {
-    label: "Reactjs",
+    id: 25,
+    label: 'Reactjs',
     position: {
-      mobile: {},
+      mobile: {
+        left: 30,
+        top: 30,
+      },
       pc: {
-        left: 989,
-        top: 195,
+        left: 75,
+        top: 30,
       },
     },
   },
   {
-    label: "Express",
+    id: 26,
+    label: 'Express',
     position: {
-      mobile: {},
+      mobile: {
+        left: 30,
+        top: 30,
+      },
       pc: {
-        left: 1076,
-        top: 636,
+        left: 20,
+        top: 80,
       },
     },
   },
   {
-    label: "CSS",
+    id: 27,
+    label: 'CSS',
     position: {
-      mobile: {},
+      mobile: {
+        left: 30,
+        top: 30,
+      },
       pc: {
-        left: 877,
-        top: 450,
+        left: 50,
+        top: 45,
       },
     },
   },
   {
-    label: "Firebase",
+    id: 28,
+    label: 'Firebase',
     position: {
-      mobile: {},
+      mobile: {
+        left: 30,
+        top: 30,
+      },
       pc: {
-        left: 1262,
-        top: 168,
+        left: 80,
+        top: 68,
       },
     },
   },
   {
-    label: "NodeJs",
+    id: 29,
+    label: 'NodeJs',
     position: {
-      mobile: {},
+      mobile: {
+        left: 30,
+        top: 30,
+      },
       pc: {
-        left: 144,
-        top: 711,
+        left: 44,
+        top: 65,
       },
     },
   },
   {
-    label: "Typescript",
+    id: 30,
+    label: 'Typescript',
     position: {
-      mobile: {},
+      mobile: {
+        left: 30,
+        top: 30,
+      },
       pc: {
-        left: 593,
-        top: 130,
+        left: 85,
+        top: 10,
+      },
+    },
+  },
+  {
+    id: 31,
+    label: 'Go',
+    position: {
+      mobile: {
+        left: 30,
+        top: 30,
+      },
+      pc: {
+        left: 75,
+        top: 5,
+      },
+    },
+  },
+  {
+    id: 32,
+    label: 'Rust',
+    position: {
+      mobile: {
+        left: 30,
+        top: 30,
+      },
+      pc: {
+        left: 63,
+        top: 20,
+      },
+    },
+  },
+  {
+    id: 33,
+    label: 'NextJs',
+    position: {
+      mobile: {
+        left: 30,
+        top: 30,
+      },
+      pc: {
+        left: 6,
+        top: 65,
+      },
+    },
+  },
+  {
+    id: 34,
+    label: 'Vue',
+    position: {
+      mobile: {
+        left: 30,
+        top: 30,
+      },
+      pc: {
+        left: 25,
+        top: 57,
+      },
+    },
+  },
+  {
+    id: 35,
+    label: 'NestJs',
+    position: {
+      mobile: {
+        left: 30,
+        top: 30,
+      },
+      pc: {
+        left: 70,
+        top: 80,
       },
     },
   },
@@ -103,23 +213,23 @@ export const technologies = [
 
 export const stack = [
   {
-    id: 1,
-    name: "Javascript",
-    url: "/Icons/JS.svg"
+    id: 11,
+    name: 'Javascript',
+    url: '/Icons/JS.svg',
   },
   {
-    id: 1,
-    name: "React",
-    url: "/Icons/React.svg"
+    id: 12,
+    name: 'React',
+    url: '/Icons/React.svg',
   },
   {
-    id: 1,
-    name: "Scss",
-    url: "/Icons/Sass.svg"
+    id: 13,
+    name: 'Scss',
+    url: '/Icons/Sass.svg',
   },
   {
-    id: 1,
-    name: "Typescript",
-    url: "/Icons/Ts.svg"
+    id: 14,
+    name: 'Typescript',
+    url: '/Icons/Ts.svg',
   },
-]
+];

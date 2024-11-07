@@ -24,14 +24,14 @@ export const education = [
     branch: "Computer Engineering",
     subtitle: "ACPDC AIR 410",
     year: 2017,
-    stpi: 9.7,
+    score: "STPI 9.7/10",
   },
   {
-    id: 1,
+    id: 2,
     title: "Bachelors",
     branch: "Information Technology",
-    subtitle: "ACPDC AIR 410",
+    subtitle: "AIR 210",
     year: 2020,
-    stpi: 9.7,
+    score: "CGPA 9.89/10",
   },
 ];

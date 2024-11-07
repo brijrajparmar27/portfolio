@@ -1,12 +1,12 @@
-import { useEffect, useRef, useState } from "react";
-import { MdArrowForwardIos, MdOutlineArrowBackIos } from "react-icons/md";
-import { education, experience } from "../../Constants/experienceData";
+import { useEffect, useRef, useState } from 'react';
+import { MdArrowForwardIos, MdOutlineArrowBackIos } from 'react-icons/md';
+import { education, experience } from '../../Constants/experienceData';
 import {
   useAnimation,
   useInView,
   motion,
   AnimatePresence,
-} from "framer-motion";
+} from 'framer-motion';
 export const Experience = () => {
   const [id, setId] = useState(1);
   const ref = useRef();
@@ -55,44 +55,36 @@ export const Experience = () => {
   }, [inView]);
 
   const variants = {
-    enter: () => {
-      return {
-        x: -200,
-        opacity: 0,
-      };
+    enter: {
+      x: -200,
+      opacity: 0,
     },
     center: {
       zIndex: 1,
       x: 0,
       opacity: 1,
     },
-    exit: () => {
-      return {
-        zIndex: 0,
-        x: -200,
-        opacity: 0,
-      };
+    exit: {
+      zIndex: 0,
+      x: -200,
+      opacity: 0,
     },
   };
 
   const Rvariants = {
-    enter: () => {
-      return {
-        x: 200,
-        opacity: 0,
-      };
+    enter: {
+      x: 200,
+      opacity: 0,
     },
     center: {
       zIndex: 1,
       x: 0,
       opacity: 1,
     },
-    exit: () => {
-      return {
-        zIndex: 0,
-        x: 200,
-        opacity: 0,
-      };
+    exit: {
+      zIndex: 0,
+      x: 200,
+      opacity: 0,
     },
   };
 
@@ -121,8 +113,8 @@ export const Experience = () => {
                 <MdOutlineArrowBackIos
                   className={
                     id > 1
-                      ? "text-title cursor-pointer"
-                      : "text-title cursor-pointer text-fg_gray"
+                      ? 'text-title cursor-pointer'
+                      : 'text-title cursor-pointer text-fg_gray'
                   }
                   onClick={() => {
                     id > 1 && setId((prev) => prev - 1);
@@ -137,8 +129,8 @@ export const Experience = () => {
                 <MdArrowForwardIos
                   className={
                     id < experience.length
-                      ? "text-title cursor-pointer"
-                      : "text-title cursor-pointer text-fg_gray"
+                      ? 'text-title cursor-pointer'
+                      : 'text-title cursor-pointer text-fg_gray'
                   }
                   onClick={() => {
                     id < experience.length && setId((prev) => prev + 1);
@@ -154,20 +146,19 @@ export const Experience = () => {
                 mode="popLayout"
               >
                 <motion.img
-                  key={experience[id - 1].id}
-                  src={experience[id - 1].logo}
-                  alt=""
-                  className="md:h-[125px] h-[70px]"
-                  // animate={animateFromLeft}
                   custom={direction}
                   variants={variants}
                   initial="enter"
                   animate="center"
                   exit="exit"
                   transition={{
-                    x: { type: "spring", stiffness: 300, damping: 30 },
+                    x: { type: 'spring', stiffness: 300, damping: 30 },
                     opacity: { duration: 0.2 },
                   }}
+                  key={experience[id - 1].id}
+                  src={experience[id - 1].logo}
+                  alt=""
+                  className="md:h-[125px] h-[70px]"
                 />
               </AnimatePresence>
               <AnimatePresence
@@ -182,7 +173,7 @@ export const Experience = () => {
                   animate="center"
                   exit="exit"
                   transition={{
-                    x: { type: "spring", stiffness: 300, damping: 30 },
+                    x: { type: 'spring', stiffness: 300, damping: 30 },
                     opacity: { duration: 0.2 },
                   }}
                   key={experience[id - 1].id}
@@ -220,7 +211,7 @@ export const Experience = () => {
           <div className="h-full flex flex-3 justify-evenly items-center flex-col md:flex-row">
             {education.map((each) => {
               return (
-                <div className="flex h-fit w-fit">
+                <div className="flex h-fit w-fit" key={each.id}>
                   <div className="flex justify-center items-center h-fit w-fit">
                     <h1 className="text-fg_gray md:text-[55px] h-full text-[30px] transform translate-x-[0.5em] md:translate-y-[33px] translate-y-[10px] rotate-[-0.25turn]">
                       {each.year}
@@ -240,7 +231,7 @@ export const Experience = () => {
                       {each.subtitle}
                     </div>
                     <div className="text-white md:text-subtext text-Msubtext font-normal">
-                      STPI 9.7/10
+                      {each.score}
                     </div>
                   </motion.div>
                 </div>

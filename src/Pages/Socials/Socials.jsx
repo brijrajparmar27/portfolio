@@ -19,10 +19,17 @@ export const Socials = () => {
       animateTitle.start({
         y: 0,
         opacity: 1,
+        transition: {
+          duration: 0.5
+        }
       });
       animateLinks.start({
         x: 0,
         opacity: 1,
+        transition: {
+          duration: 0.5,
+          delay: 0.5
+        }
       });
     } else {
       animateTitle.start({
