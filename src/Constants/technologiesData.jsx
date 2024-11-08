@@ -130,8 +130,8 @@ export const technologies = [
     label: 'Typescript',
     position: {
       mobile: {
-        left: 30,
-        top: 30,
+        left: -100,
+        top: 27,
       },
       pc: {
         left: 85,
