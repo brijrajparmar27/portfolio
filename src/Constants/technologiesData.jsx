@@ -18,7 +18,7 @@ export const technologies = [
     label: 'Sass',
     position: {
       mobile: {
-        left: 30,
+        left: 25,
         top: 20,
       },
       pc: {
@@ -116,8 +116,8 @@ export const technologies = [
     label: 'NodeJs',
     position: {
       mobile: {
-        left: 30,
-        top: 30,
+        left: 3,
+        top: 80,
       },
       pc: {
         left: 44,
@@ -144,8 +144,8 @@ export const technologies = [
     label: 'Go',
     position: {
       mobile: {
-        left: 30,
-        top: 30,
+        left: 87,
+        top: 0,
       },
       pc: {
         left: 75,
@@ -158,8 +158,8 @@ export const technologies = [
     label: 'Rust',
     position: {
       mobile: {
-        left: 30,
-        top: 30,
+        left: 70,
+        top: 40,
       },
       pc: {
         left: 63,
@@ -172,8 +172,8 @@ export const technologies = [
     label: 'NextJs',
     position: {
       mobile: {
-        left: 30,
-        top: 30,
+        left: 57,
+        top: 8,
       },
       pc: {
         left: 6,
@@ -186,8 +186,8 @@ export const technologies = [
     label: 'Vue',
     position: {
       mobile: {
-        left: 30,
-        top: 30,
+        left: 20,
+        top: 35,
       },
       pc: {
         left: 25,
@@ -200,7 +200,7 @@ export const technologies = [
     label: 'NestJs',
     position: {
       mobile: {
-        left: 30,
+        left: 77,
         top: 30,
       },
       pc: {
